@@ -10,18 +10,7 @@
 		<spring.version>4.2.0.RELEASE</spring.version>
 	</properties>
 	 
-	 <repositories>
-		 <repository>
-			<id>manisha04nandal0660</id>
-			<url>https://pkgs.dev.azure.com/manisha04nandal0660/_packaging/manisha04nandal0660/maven/v1</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
+	 
 	<dependencies>
 	 
 		<!-- Servlet API -->
