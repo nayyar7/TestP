@@ -19,17 +19,7 @@ spec:
         - my-springweb-app  
         - "/my-springweb-app/test.conf"
         ports:
-        - containerPort: 8080
-        volumeMounts:  
-        - mountPath: /my-springweb-app  
-          name: config  
-      volumes:  
-        - name: config  
-          configMap:  
-            name: example-test-config
-            items:  
-            - key: test-config  
-              path: test.conf      
+        - containerPort: 8080     
 # service type loadbalancer       
 ---
 apiVersion: v1
