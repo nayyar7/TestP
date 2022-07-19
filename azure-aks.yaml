@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-springweb-app
-        image: testmanishaacr.azurecr.io/testp
+        image: acrnayyar.azurecr.io/nayyar7/testp
         command:  
         - my-springweb-app  
         - "/my-springweb-app/test.conf"
